@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: blue;
+
+    }
+    
+</style>
+</head>
+<body>
+    {%for student in students%}
+        <h1>{{student.name}}</h1>
+        <h2>{{student.email}}</h2>
+        <h2>{{student.phone}}</h2>
+        <h2>{{student.summary}}</h2>
+        <h2>{{student.skills}}</h2>
+        <h2>{{student.education}}</h2>
+        <h2>{{student.experience}}</h2>
+    {%endfor%}   
+</body>
+</html>
